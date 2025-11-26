@@ -1,0 +1,25 @@
+{
+  "name": "@qxmp/pdf-parser",
+  "version": "1.0.0",
+  "description": "PDF parsing service for mining reports (NI 43-101, JORC, GIA)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "parse": "ts-node src/cli.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^3.11.174",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.4",
+    "ts-node": "^10.9.2",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.11"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "asset_code": "QXMP:AKTA-NI43-ZA",
+  "asset_name": "AEM Gold Project",
+  "reporting_standard": "NI 43-101",
+  "jurisdiction": "ZA",
+  "asset_value_usd": 6800000000,
+  "mineral_resources_mt": 25000000,
+  "gold_grade_gt": 5.04,
+  "gold_oz_in_situ": 1562825,
+  "recovery_rate": 0.907,
+  "holder": "QUANTUM ENHANCED LEDGER TECHNOLOGY QELT LLC t/a QXMP LABS",
+  "jv_structure": {
+    "qxmp_labs": 0.3,
+    "asset_partners": 0.7
+  },
+  "report_hash": "96e2e35d0f3740c9941eabc471eaa4442dd7b0aed5a257bf53e4b5e9d8105a51",
+  "timestamp": 1764146596,
+  "effective_date": "2025-01-16"
+}
