@@ -1,4 +1,7 @@
-require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-ethers");
+require("@nomicfoundation/hardhat-chai-matchers");
+require("@nomicfoundation/hardhat-network-helpers");
+require("@nomicfoundation/hardhat-verify");
 require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
@@ -24,9 +27,12 @@ module.exports = {
       gasPrice: "auto"
     },
     mainnet: {
-      url: process.env.MAINNET_RPC_URL || "https://eth.llamarpc.com",
+      url: process.env.MAINNET_RPC_URL || "https://mainnet.infura.io/v3/728132c9af2f46a7ab4a5b28e1ec252d",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
-      chainId: 1
+      chainId: 1,
+      timeout: 120000,
+      gas: "auto",
+      gasPrice: "auto"
     }
   },
   etherscan: {

@@ -537,10 +537,77 @@ UNLICENSED - Proprietary to QXMP Labs
 - **AKTA Registration TX**: [0x2a1c92c0...](https://sepolia.etherscan.io/tx/0x2a1c92c0a77460a80367918c6916dac8ad46992d1b9cb91a085d73b7159c05b8)
 - **Total Assets**: 1 ($6.8B USD)
 
+## 🎉 Phase 4: Ethereum Mainnet Deployment (COMPLETED)
+
+### 🚀 Live on Ethereum Mainnet!
+
+**Deployment Date**: November 26, 2025  
+**Network**: Ethereum Mainnet (Chain ID: 1)  
+**Deployer**: 0xaD00eb5dC02E56d628d68AbD144B8c223A6Cf1Ef
+
+#### Deployed Contracts (Mainnet)
+
+1. **QXMPAssetRegistry**
+   - Address: `0x9Df7F7ba353Ef7405714248e8116C6F5F68eb78a`
+   - [View on Etherscan](https://etherscan.io/address/0x9Df7F7ba353Ef7405714248e8116C6F5F68eb78a)
+   - Owner: QXMPProofOfReserve contract
+   - Total Assets: 1
+
+2. **QXMPProofOfReserve**
+   - Address: `0x49705Fa01A7952dd1b7c2DdFe432C650520C74F9`
+   - [View on Etherscan](https://etherscan.io/address/0x49705Fa01A7952dd1b7c2DdFe432C650520C74F9)
+   - Owner: 0xaD00eb5dC02E56d628d68AbD144B8c223A6Cf1Ef
+   - Registry: 0x9Df7F7ba353Ef7405714248e8116C6F5F68eb78a
+
+#### Registered Assets on Mainnet
+
+**AKTA Gold Project (QXMP:AKTA-NI43-ZA)** ✅
+
+- **Registration TX**: [0x50325e53fb9b32a704d0a442291a55e2d017429a6bcbac813b5277ffabc743a7](https://etherscan.io/tx/0x50325e53fb9b32a704d0a442291a55e2d017429a6bcbac813b5277ffabc743a7)
+- **Block Number**: 23,884,054
+- **Gas Used**: 308,367
+- **Status**: Active ✅
+- **Asset Code Hash**: `0x137d17cd6d1691803e21a7030292936ddf6c9ba9939d5dbe0125776789767d12`
+- **On-Chain Value**: $6,800,000,000 USD
+- **Mineral Resources**: 25,000,000 Mt
+- **Gold Ounces**: 1,562,825 oz
+- **Report Hash**: `0x96e2e35d0f3740c9941eabc471eaa4442dd7b0aed5a257bf53e4b5e9d8105a51`
+- **Holder**: QUANTUM ENHANCED LEDGER TECHNOLOGY QELT LLC t/a QXMP LABS
+
+### What We Accomplished
+
+1. ✅ **Ethereum Mainnet Deployment**
+   - Successfully deployed both contracts to production
+   - Registry and ProofOfReserve contracts live
+   - Proper ownership and access control configured
+
+2. ✅ **First Production Asset On-Chain**
+   - AKTA Gold Project ($6.8B) registered on Ethereum mainnet
+   - Complete metadata stored immutably
+   - Document hash anchored for integrity verification
+   - Publicly verifiable on Etherscan
+
+3. ✅ **Production Infrastructure**
+   - Multi-network deployment scripts tested
+   - Automated asset registration working
+   - On-chain verification tools operational
+
+### Mainnet vs Sepolia Comparison
+
+| Feature | Sepolia Testnet | Ethereum Mainnet |
+|---------|----------------|------------------|
+| Registry Address | 0x22e7D6c692d0712652f460B1d76542a50ffb71dF | 0x9Df7F7ba353Ef7405714248e8116C6F5F68eb78a |
+| ProofOfReserve Address | 0x3F995EfDEf487f3fAbb76a9b4aE59ab279CE531B | 0x49705Fa01A7952dd1b7c2DdFe432C650520C74F9 |
+| AKTA Registration TX | 0x2a1c92c0a77460... | 0x50325e53fb9b32a704... |
+| Block Number | 9,709,972 | 23,884,054 |
+| Gas Used | 308,367 | 308,367 |
+| Status | Test Environment | **Production** ✅ |
+
 ### Next Immediate Steps
 
 1. ✅ ~~Deploy contracts to Sepolia testnet~~ **DONE**
 2. ✅ ~~Register AKTA Gold Project on-chain~~ **DONE**
-3. Verify contracts on Etherscan (optional)
-4. Deploy to Ethereum mainnet
-5. Begin STOBOX integration (Phase 4)
+3. ✅ ~~Deploy to Ethereum mainnet~~ **DONE**
+4. ✅ ~~Register AKTA on mainnet~~ **DONE**
+5. Verify contracts on Etherscan (optional)
+6. Begin STOBOX integration (Phase 5)
